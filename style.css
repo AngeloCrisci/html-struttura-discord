@@ -56,7 +56,6 @@
 
     .spotlight {
         background-color: rgb(3, 3, 58);
-        min-height: 500px;
         padding-top: 50px;
         padding-bottom: 50px;
 
@@ -66,7 +65,7 @@
         padding: 20px;
         border: 2px, black, dashed;
         width: 50%;
-        height: 400px;
+        min-height: 400px;
         margin-left: 25%;
         margin-right: 25%;
         background-color: pink;
@@ -94,4 +93,15 @@
 
     .gray-c {
         background-color: gray;
+    }
+
+    .box-g {
+        min-height: 600px;
+        border: 2px , black , dashed;
+        background-color: green;
+        
+    }
+
+    .pdg {
+        padding: 25px;
     }
