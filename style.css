@@ -9,7 +9,6 @@
 
     header {
         background-color: lightblue;
-        height: 80px;
     }
 
     .header-top {
@@ -21,6 +20,16 @@
         margin-right: 150px;
     }
 
+    .container {
+        max-width: 1080px;
+        border-color: black;
+        display: block;
+        margin: 0  auto;
+    }
+
+    .group {
+        min-height: 600px;
+    }
 
 
 
@@ -65,4 +74,14 @@
     }
 
 
+    .d-f {
+        display: flex;
+        padding: 25px;
+    }
+
+    .b-visibility {
+        border: 2px , black , dashed;
+        background-color: blue;
+        flex-basis: 50%;
+    }
     
