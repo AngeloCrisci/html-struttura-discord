@@ -1,0 +1,50 @@
+/* Css.Reset*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+
+
+    /* Generals */
+
+    header {
+        background-color: lightblue;
+        height: 80px;
+    }
+
+    .header-top {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 80px;
+        margin-left: 150px;
+        margin-right: 150px;
+    }
+
+
+
+
+
+    /* Utilities */
+
+    .header-top > * {
+        border-color: black;
+        background-color: goldenrod;
+        border-style: dashed;
+        align-content: center;
+        text-align: center;
+
+    }
+
+    .f-b {
+        flex-basis: 20%;
+        min-height: 50%;
+    }
+
+    .nav {
+        flex-basis: 50%;
+    }
+
+
+
+    
