@@ -105,3 +105,22 @@
     .pdg {
         padding: 25px;
     }
+
+    .black-c {
+        background-color: black;
+    }
+
+    .b-section {
+        background-color: rgb(212, 143, 154);
+        border: 2px rgb(255, 255, 255) dashed;
+        flex-grow: 1;
+
+        
+    }
+
+    .s-sections {
+        background-color: rgb(192, 217, 255);
+        border: 2px rgb(255, 255, 255) dashed;
+        flex-basis: 15%;
+
+    }
