@@ -124,3 +124,22 @@
         flex-basis: 15%;
 
     }
+
+    .h-f {
+        min-height: 80px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .bottom {
+        flex-basis: 40px;
+        color: aliceblue;
+        border: 2px dashed white;
+        background-color: pink;
+        min-height: 30px;
+    }
+
+    .acqua{
+        background-color: aquamarine;
+    }
